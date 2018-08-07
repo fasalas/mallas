@@ -1,0 +1,79 @@
+	{
+	"s1": [
+		["Fundamentos de Matemáticas", "IEC-111", 4, "PC"],
+		["Álbegra", "IEC-112", 4, "PC"],
+		["Introducción a la Ingeniería", "IEC-113", 3, "PC"],
+		["Dibujo Para la Construcción", "IEC-114", 1, "PC"],
+		["PC Para la Construcción", "IEC-115", 2, "PC"],
+		["Desarrollo Personal", "IEC-116",2,"PC"]
+	],
+	"s2": [["Cálculo Diferencial", "IEC-121", 4, "PC"],
+		["Álbegra Lineal", "IEC-122", 3, "PC", ["IEC-111", "IEC-112"]],
+		["Fundamentos de la Física", "IEC-123", 3, "PC", ["IEC-112"]],
+		["Industria de la Construcción", "IEC-124", 3, "PC", ["IEC-113","IEC-114"]],
+		["Desarrollo Personal II", "IEC-125", 2, "PC",["IEC-116"]]
+	],
+	"s3": [["Cálculo Integral y Series", "IEC-211", 3, "PC", ["IEC-121"]],
+		["Química General", "IEC-212", 2, "PC", ["IEC-111"]],
+		["Física Mecánica", "IEC-213", 3, "PC", ["IEC-123", "IEC-121"]],
+		["Topografía", "IEC-214", 3, "PC", ["IEC-112", "IEC-115"]],
+		["Estructuras I", "IEC-215", 2, "PC", ["IEC-123"]],
+		["Idioma I", "IEC-216", 1, "PC",["IEC-125"]]
+	],
+	"s4": [
+		["Física Calor, Ondas y Óptica", "IEC-221", 2, "PC", ["IEC-213"]],
+		["Materiales de Ingeniería", "IEC-222", 3, "PC", ["IEC-212"]],
+		["Procesos y Sistemas Constructivos I", "IEC-223",  3, "PC", ["IEC-124"]],
+		["Estructuras II", "IEC-224", 3, "PC", ["IEC-215"]],
+		["Taller de Integración I", "IEC-225", 2, "PC", ["IEC-124","IEC-214"]]
+	],
+	"s5": [
+		["Probabilidad y Estadística", "IEC-311", 2, "PC", ["IEC-211","IEC-122"]],
+		["Tecnología del Hormigón", "IEC-312", 3, "PC", ["IEC-222"]],
+		["Hidraulica", "IEC-313", 2, "PC", ["IEC-213"]],
+		["Procesos y Sistemas Constructivos II", "IEC-314", 3, "PC", ["IEC-223"]],
+		["Geotecnia", "IEC-315", 3, "PC", ["IEC-224"]],
+		["Legislación", "IEC-316", 2, "PC",["IEC-124"]],
+		["Tipe I", "IEC-317", 1, "PC"],
+		["Práctica Básica", "IEC-318", 0, "PC"]
+	],
+	"s6": [
+		["Instalaciones Eléctricas y Gas", "IEC-321", 3, "PC", ["IEC-221"]],
+		["Construcción en Hormigón Armado", "IEC-322", 2, "PC", ["IEC-224","IEC-312"]],
+		["Ingeniería Sanitaria I", "IEC-323", 3, "PC", ["IEC-313"]],
+		["Procesos y Sistemas Constructivos III", "IEC-324", 2, "PC", ["IEC-314"]],
+		["Maquinaria y Equipos", "IEC-325", 2, "PC", ["IEC-314"]],
+		["Economía", "IEC-326", 2, "PC",["IEC-121"]],
+		["Idioma II", "IEC-327", 1, "PC", ["IEC-216"]]
+	],
+	"s7": [
+		["Programación y Costos", "IEC-411", 2, "PC", ["IEC-324"]],
+		["Ingeniería Sanitaria II", "IEC-412", 3, "PC", ["IEC-323"]],
+		["Construcción en Madera", "IEC-413", 3, "PC", ["IEC-322"]],
+		["Gestión de Empresas", "IEC-414", 2, "PC", ["IEC-327"]],
+		["Idioma III", "IEC-415", 2, "PC", ["IEC-327"]],
+		["Tipe II", "IEC-416", 1, "PC", ["IEC-317"]],
+		["Práctica Intermedia", "IEC-417",0,"PC",["IEC-318"]]
+	],
+	"s8": [
+		["Gestión de Proyectos de Construcción", "IEC-421", 2, "PC", ["IEC-411"]],
+		["Obras Viales", "IEC-422", 3, "PC", ["IEC-315","IEC-214"]],
+		["Evaluación de Proyectos", "IEC-423", 2, "PC", ["IEC-414"]],
+		["Taller de Integración II", "IEC-424", 2, "PC", ["IEC-411"]],
+		["Ética y Responsabilidad Social", "IEC-425", 2, "PC", ["IEC-414"]],
+		["Tipe III", "IEC-426", 1, "PC", ["IEC-416"]]
+	],
+	"s9": [
+		["Trabajo de Título I", "IEC-511", 3, "PC"],
+		["Obras Viales II", "IEC-512", 3, "PC", ["IEC-422"]],
+		["Construcción en Aero y Montaje Indrustrial", "IEC-513", 3, "PC", ["IEC-413"]],
+		["Puentes y Túneles", "IEC-514", 2, "PC", ["IEC-422"]],
+		["Sustentabilidad de la Construcción", "IEC-515", 2, "PC", ["IEC-425"]],
+		["Obras Marítimas", "IEC-516", 2, "PC", ["IEC-325"]],
+		["Práctica Profesional", "IEC-517", 0, "PC",["IEC-417"]]
+	],
+	"s10": [
+		["Trabajo de Título II", "IEC-521", 2, "PC", ["IEC-511"]],
+		["Gestión de Riesgos en Construcción", "IEC-522", 2, "PC",["IEC-425"]]
+	]
+}
