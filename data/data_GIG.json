@@ -4,7 +4,7 @@
 		["Álbegra", "IEC-112", 4, "PC"],
 		["Introducción a la Ingeniería", "IEC-113", 3, "PC"],
 		["Dibujo Para la Construcción", "IEC-114", 1, "PC"],
-		["PC Para la Construcción", "IEC-115", 2, "PC"],
+		["TIC Para la Construcción", "IEC-115", 2, "PC"],
 		["Desarrollo Personal", "IEC-116",2,"PC"]
 	],
 	"s2": [["Cálculo Diferencial", "IEC-121", 4, "PC"],
