@@ -7,7 +7,7 @@
 		["TIC Para la Construcción", "IEC-115", 2, "PC"],
 		["Desarrollo Personal", "IEC-116",2,"PC"]
 	],
-	"s2": [["Cálculo Diferencial", "IEC-121", 4, "PC"],
+	"s2": [["Cálculo Diferencial", "IEC-121", 4, "PC",["IEC-111","IEC-112"]],
 		["Álbegra Lineal", "IEC-122", 3, "PC", ["IEC-111", "IEC-112"]],
 		["Fundamentos de la Física", "IEC-123", 3, "PC", ["IEC-112"]],
 		["Industria de la Construcción", "IEC-124", 3, "PC", ["IEC-113","IEC-114"]],
